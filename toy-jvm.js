@@ -886,7 +886,6 @@ class JavaEngine {
     initEnvironment(c) {
         this.vm.frameStack = new Scope(c.constPool);
         this.vm.frameStack.push();
-        //this.vm.frameStack.setLocalVar(0, 0xFF); // local var index is 1s based
     }
     loadByteCodeForMethod(c) {
         this.codeArray = ClassCodeEmitter.emit(c);
