@@ -543,6 +543,8 @@ const Exec = {
     ]
 };
 
+// JS conversion of https://github.com/atcol/cfr
+// Needs to be replaced, since it's GPL3 and I plan on using the MIT License
 class ClassLoader {
     constructor(fileContents) {
         this.classContents = fileContents;
