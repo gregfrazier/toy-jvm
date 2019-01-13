@@ -1,0 +1,25 @@
+{
+  "name": "toy-jvm",
+  "version": "0.0.1",
+  "description": "Toy implementation of Java Virtual Machine",
+  "main": "toy-jvm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregfrazier/toy-jvm.git"
+  },
+  "author": "Greg Frazier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gregfrazier/toy-jvm/issues"
+  },
+  "homepage": "https://github.com/gregfrazier/toy-jvm#readme",
+  "dependencies": {
+    "terminal-kit": "^1.26.10"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0"
+  }
+}
